@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProiectMPP.Controllers.AddChildToTrialController">
+   <children>
+      <TextField fx:id="firstName" layoutX="30.0" layoutY="259.0" promptText="First name" />
+      <TextField fx:id="lastName" layoutX="30.0" layoutY="293.0" promptText="Last name" />
+      <TextField fx:id="age" layoutX="30.0" layoutY="325.0" promptText="Age" />
+      <Button fx:id="addToCompetition" layoutX="297.0" layoutY="293.0" mnemonicParsing="false" onAction="#setAddToCompetition" text="Button" />
+      <Label fx:id="validationException" layoutX="23.0" layoutY="44.0" />
+      <TableView fx:id="trials" layoutX="14.0" prefHeight="244.0" prefWidth="412.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="84.66662311553955" text="Trial Name" />
+          <TableColumn fx:id="description" prefWidth="263.99999237060547" text="Trial description" />
+            <TableColumn fx:id="distance" prefWidth="62.66668701171875" text="Distance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

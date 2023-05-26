@@ -1,0 +1,11 @@
+rootProject.name = 'ProiectMPP'
+include 'AppModel'
+include 'AppPersistence'
+include 'AppServices'
+include 'AppClient'
+include 'AppServer'
+include 'AppNetworking'
+include 'Protobuf'
+include 'AppClient2'
+include 'RestServices'
+
